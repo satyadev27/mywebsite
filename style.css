@@ -1,0 +1,93 @@
+body {
+    margin: auto;
+    max-width: 50em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+img {
+    max-width: 100%;
+}
+
+#banner h1 {
+    font-size: 2.5em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+#banner h1 a:link,
+#banner h1 a:visited {
+    color: #111;
+    text-decoration: none;
+}
+
+pre {
+    padding: 0.5em;
+    background: #ddd;
+    border: 1px solid #000;
+    overflow: auto;
+}
+
+.entry-title {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.tags {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.article-link {
+    font-weight: bold;
+}
+
+.post-info {
+    float: right;
+    margin: 0.5em;
+    padding: 0.5em;
+    border: 1px solid #000;
+    max-width: 16em;
+}
+
+footer div {
+    column-count: 3;
+    column-width: 18em;
+    column-rule: 1px solid #ddd;
+}
+
+footer div div {
+    display: inline-block;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #eee;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: #333;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #ddd;
+}
+
+table, td, th {
+    padding: 0.2em;
+    border: 1px solid gray;
+    border-collapse: collapse;
+}

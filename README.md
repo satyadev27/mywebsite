@@ -1,1 +1,0 @@
-Domain: https://satyadev.me
